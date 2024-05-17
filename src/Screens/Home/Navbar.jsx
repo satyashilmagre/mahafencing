@@ -1,6 +1,5 @@
 import React from 'react';
-import '../App.css';
-import { Carousel } from 'react-bootstrap';
+import '../css/home.css';
 
 const Navbar = () => {
     return (
@@ -121,31 +120,7 @@ const Navbar = () => {
             </nav>
 
 
-            <div className='row'>
-                <div className="col-md-12">
-                    <div className="ms-panel">
-                        {/* <div className="ms-panel-header">
-                            <h6>Slider Images</h6>
-                        </div> */}
-                        <div className="ms-panel-body">
-                            <Carousel className="ms-image-slider" controls={false}>
-                                <Carousel.Item>
-                                    <img className="d-block w-100" src={"http://mahafencing.in/assets/img/banner/MFA%20(1).jpg"} alt="First slide" />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="d-block w-100" src={"http://mahafencing.in/assets/img/banner/FAI%20(1).jpg"} alt="Second slide" />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="d-block w-100" src={"http://mahafencing.in/assets/img/banner/IFF.jpg"} alt="Third slide" />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="d-block w-100" src={"http://mahafencing.in/assets/img/banner/Fencing%20Association.jpg"} alt="Third slide" />
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     );
 }
